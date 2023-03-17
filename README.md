@@ -74,3 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## An online grocery store
 
 This is an online grocery store that will enable customers to choose from a wide range of goods from milk to fruits and be able to shop them. Also delivery of the products will be doe in the website.
+made with love
