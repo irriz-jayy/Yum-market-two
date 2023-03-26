@@ -17,10 +17,40 @@ const Homepage = () => {
         </div>
         <h2 className="text-2xl text-center font-bold">Categories</h2>
         <div className="h-96 mt-4 flex flex-row justify-between">
-          <div className="h-full border border-black w-1/5"></div>
-          <div className="h-full border border-black w-1/5"></div>
-          <div className="h-full border border-black w-1/5"></div>
-          <div className="h-full border border-black w-1/5"></div>
+          <div className="border border-black w-1/5 rounded-lg">
+            <img
+              src="https://bit.ly/40vhs1Z"
+              alt="vegetables "
+              className="h-3/4 rounded-lg"
+            />
+            <p className="text-center font-semibold mt-3"> Vegetables </p>
+          </div>
+          <div className="border border-black w-1/5 rounded-lg">
+            {" "}
+            <img
+              src="https://bit.ly/3z9kAVv"
+              alt="fruit "
+              className="h-3/4 rounded-lg"
+            />
+            <p className="text-center font-semibold mt-3"> Fruits </p>
+          </div>
+          <div className="border border-black w-1/5 rounded-lg">
+            {" "}
+            <img
+              src="https://bit.ly/3JIV1iX"
+              alt="dairy "
+              className="h-3/4 rounded-lg"
+            />
+            <p className="text-center font-semibold mt-3"> Dairy </p>
+          </div>
+          <div className="w-1/5 rounded-lg">
+            <img
+              src="https://bit.ly/42OUrJB"
+              alt="meat "
+              className="h-3/4 rounded-lg"
+            />
+            <p className="text-center font-semibold mt-3"> Meat </p>
+          </div>
         </div>
       </div>
     </>
