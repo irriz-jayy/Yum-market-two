@@ -17,7 +17,7 @@ const Homepage = () => {
         </div>
         <h2 className="text-2xl text-center font-bold">Categories</h2>
         <div className="h-96 mt-4 flex flex-row justify-between">
-          <div className="border border-black w-1/5 rounded-lg">
+          <div className="w-1/5 rounded-lg">
             <img
               src="https://bit.ly/40vhs1Z"
               alt="vegetables "
@@ -25,7 +25,7 @@ const Homepage = () => {
             />
             <p className="text-center font-semibold mt-3"> Vegetables </p>
           </div>
-          <div className="border border-black w-1/5 rounded-lg">
+          <div className="w-1/5 rounded-lg">
             {" "}
             <img
               src="https://bit.ly/3z9kAVv"
@@ -34,7 +34,7 @@ const Homepage = () => {
             />
             <p className="text-center font-semibold mt-3"> Fruits </p>
           </div>
-          <div className="border border-black w-1/5 rounded-lg">
+          <div className="w-1/5 rounded-lg">
             {" "}
             <img
               src="https://bit.ly/3JIV1iX"
