@@ -20,6 +20,14 @@ const Homepage = () => {
             </button>
           </div>
         </div>
+        <div className="h-24 border border-black text-center">
+          <p className="font-bold text-2xl p-4">Our features</p>
+        </div>
+        <div className="h-96  flex justify-between p-2">
+          <div className=" flex w-3/12 border border-black "></div>
+          <div className=" flex w-3/12 border border-black "></div>
+          <div className=" flex w-3/12 border border-black "></div>
+        </div>
       </div>
     </>
   );
