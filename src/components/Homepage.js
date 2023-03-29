@@ -28,9 +28,6 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="h-24  text-center">
-          <p className="font-bold text-2xl p-4">Our features</p>
-        </div>
         <Feature />
       </div>
     </>
