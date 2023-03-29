@@ -17,3 +17,23 @@
   padding: 10px;
   display: flex;
 }
+/* Welcome section styles */
+.welcome-container {
+  width: 100vw;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Welcome content styling */
+.welcome-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Feature section style */
+.feature-container {
+}

@@ -1,6 +1,8 @@
+import "../App.css";
+
 function Feature() {
   return (
-    <div className="h-80  flex justify-between p-2">
+    <div className="feature-container">
       <div className=" flex w-3/12 flex-col">
         <img
           src="http://via.placeholder.com/350x100"
