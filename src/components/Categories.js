@@ -3,11 +3,11 @@ import "../App.css";
 const lists = [
   {
     id: 1,
-    image: "http://via.placeholder.com/450x300",
+    image: "https://bit.ly/40pJNax",
     name: "Fresh vegetables",
   },
-  { id: 2, image: "http://via.placeholder.com/450x300", name: "Fresh fruit" },
-  { id: 3, image: "http://via.placeholder.com/450x300", name: "Fresh meat" },
+  { id: 2, image: "https://bit.ly/3KhLfWJ", name: "Fresh fruit" },
+  { id: 3, image: "https://bit.ly/3G19qpK", name: "Fresh meat" },
 ];
 
 const Categories = () => {
