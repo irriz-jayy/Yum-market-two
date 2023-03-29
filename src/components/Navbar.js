@@ -1,5 +1,5 @@
 import "../App.css";
-
+import { NavLink, Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="nav-container">
@@ -27,28 +27,26 @@ function Navbar() {
       <div className="nav-item">
         <ul>
           <li>
-            <a href="#" className="text-lg">
-              Delivery area
-            </a>
+            <NavLink className="text-lg" activeClassName="active" to="/">
+            Delivery area
+              </NavLink>
           </li>
         </ul>
       </div>
       <div className="nav-item">
         <ul>
           <li>
-            <a href="" className="text-red-600 text-lg">
-              {" "}
-              Login/Register{" "}
-            </a>
+            <NavLink className="text-red-600 text-lg" activeClassName="active" to="/login">
+            Login/Register              </NavLink>
           </li>
         </ul>
       </div>
       <div className="nav-item">
         <ul>
           <li>
-            <a href="#" className="text-lg">
-              Cart
-            </a>
+          <NavLink className="text-lg" activeClassName="active" to="/">
+            Cart
+              </NavLink>
           </li>
         </ul>
       </div>
