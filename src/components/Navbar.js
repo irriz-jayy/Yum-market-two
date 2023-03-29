@@ -2,8 +2,8 @@ import "../App.css";
 
 function Navbar() {
   return (
-    <div className="flex flex-row  h-16  w-auto justify-between text-lg bg-cyan-600 ">
-      <div className="p-2 ">
+    <div className="nav-container">
+      <div className="nav-item">
         <ul>
           <li>
             <a href="./home.html">
@@ -17,36 +17,38 @@ function Navbar() {
         </ul>
       </div>
 
-      <div className="p-2">
+      <div className="nav-item">
         <input
-          className="rounded-full"
+          className="rounded-full p-4"
           type="text"
           placeholder="Search for products..."
         />
       </div>
-      <div className="p-2">
+      <div className="nav-item">
         <ul>
           <li>
-            <a href="#" className="">
+            <a href="#" className="text-lg">
               Delivery area
             </a>
           </li>
         </ul>
       </div>
-      <div className="p-2">
+      <div className="nav-item">
         <ul>
           <li>
-            <a href="" className="text-red-600">
+            <a href="" className="text-red-600 text-lg">
               {" "}
               Login/Register{" "}
             </a>
           </li>
         </ul>
       </div>
-      <div className="p-2 mr-2">
+      <div className="nav-item">
         <ul>
           <li>
-            <a href="#"> Cart</a>
+            <a href="#" className="text-lg">
+              Cart
+            </a>
           </li>
         </ul>
       </div>
