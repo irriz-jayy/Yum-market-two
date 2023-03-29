@@ -1,4 +1,5 @@
 import "../App.css";
+import Categories from "./Categories";
 import Feature from "./Feature";
 import Navbar from "./Navbar";
 
@@ -29,6 +30,7 @@ const Homepage = () => {
           </div>
         </div>
         <Feature />
+        <Categories />
       </div>
     </>
   );

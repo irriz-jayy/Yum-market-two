@@ -44,7 +44,8 @@
 
 /* Feature section style */
 /* Feature header */
-.feature-header {
+.feature-header,
+.categories-header {
   font-size: 19px;
   font-weight: 600;
   text-align: center;
@@ -52,9 +53,6 @@
 }
 
 .feature-container {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
   display: flex;
   justify-content: space-between;
   height: 350px;
@@ -72,4 +70,32 @@
 .feature-button {
   display: flex;
   justify-content: center;
+}
+
+/* Category section styling */
+.categories-container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  padding: 10px;
+}
+
+.category-name {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Unna";
+  padding: 10px;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
