@@ -1,9 +1,9 @@
 import "../App.css";
 
 const list=[
-  {image:"http://via.placeholder.com/350x100",header:"Fresh and organic",description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ducimusaccusantium qui laudantium deserunt debitis dolorem"},
-  {image:"http://via.placeholder.com/350x100",header:"Quick deliveries",description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ducimus accusantium qui laudantium deserunt debitis dolorem"},
-  {image:"http://via.placeholder.com/350x100",header:"Easy payments",description:    "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ducimus accusantium qui laudantium deserunt debitis dolorem"}
+  {image:"https://bit.ly/3lOPLCA",header:"Fresh and organic",description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ducimusaccusantium qui laudantium deserunt debitis dolorem"},
+  {image:"https://bit.ly/3ZvDAZc",header:"Quick deliveries",description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ducimus accusantium qui laudantium deserunt debitis dolorem"},
+  {image:"https://bit.ly/3TQVdBF",header:"Easy payments",description:    "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Ducimus accusantium qui laudantium deserunt debitis dolorem"}
 ]
 
 function Feature() {

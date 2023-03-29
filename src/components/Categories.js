@@ -14,7 +14,7 @@ const Categories = () => {
   return (
     <>
       <div className="categories-header">
-        <p>Our features</p>
+        <p>Our categories</p>
       </div>
       <div className="categories-container" >
         {lists.map((item)=>(

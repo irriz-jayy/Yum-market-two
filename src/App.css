@@ -74,9 +74,6 @@
 
 /* Category section styling */
 .categories-container {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
   display: flex;
   justify-content: space-between;
   height: 350px;
@@ -94,8 +91,8 @@
   display: flex;
   flex-direction: column;
   width: 22%;
-
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
 }
+
+/*   border-style: solid;
+  border-width: 2px;
+  border-color: black; */
