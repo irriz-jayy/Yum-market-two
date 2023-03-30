@@ -2,6 +2,7 @@ import "../App.css";
 import Categories from "./Categories";
 import Feature from "./Feature";
 import Navbar from "./Navbar";
+import ProductCard from "./ProductCard";
 
 const Homepage = () => {
   return (
@@ -31,6 +32,7 @@ const Homepage = () => {
         </div>
         <Feature />
         <Categories />
+        <ProductCard />
       </div>
     </>
   );
