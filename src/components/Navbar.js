@@ -28,25 +28,30 @@ function Navbar() {
         <ul>
           <li>
             <NavLink className="text-lg" activeClassName="active" to="/">
-            Delivery area
-              </NavLink>
+              Delivery area
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="nav-item">
         <ul>
           <li>
-            <NavLink className="text-red-600 text-lg" activeClassName="active" to="/login">
-            Login/Register              </NavLink>
+            <NavLink
+              className="text-red-600 text-lg"
+              activeClassName="active"
+              to="/login"
+            >
+              Login/Register
+            </NavLink>
           </li>
         </ul>
       </div>
       <div className="nav-item">
         <ul>
           <li>
-          <NavLink className="text-lg" activeClassName="active" to="/">
-            Cart
-              </NavLink>
+            <NavLink className="text-lg" activeClassName="active" to="/">
+              Cart
+            </NavLink>
           </li>
         </ul>
       </div>
