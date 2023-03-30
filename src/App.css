@@ -101,12 +101,34 @@
 
 /* Product section style */
 .product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgb(250 204 21);
+}
+
+.product-card {
   border-style: solid;
   border-width: 2px;
   border-color: black;
   display: flex;
-  justify-content: space-between;
-  height: 350px;
+  flex-direction: column;
+  width: 25%;
+}
+
+.product-image {
+}
+
+.product-name {
+  text-align: center;
+  font-size: 19px;
+  font-family: "Unna";
   padding: 10px;
-  background-color: rgb(250 204 21);
+}
+
+.product-button {
+  display: flex;
+  justify-content: center;
 }

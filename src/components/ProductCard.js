@@ -43,7 +43,7 @@ const produce = [
   },
 
   {
-    image: "https://bit.ly/3ZsvSzc",
+    image: "https://bit.ly/3Kkptl1",
     name: "Avocados",
     price: 40.0,
   },
@@ -85,7 +85,24 @@ const ProductCard = () => {
       <div className="products-header">
         <p>Buy products</p>
       </div>
-      <div className="product-container">Test</div>
+      <div className="product-container">
+        {produce.map((item) => (
+          <div className="product-card">
+            <img src={item.image} alt="vegetables " className="product-image" />
+            <div className="product-name">
+              <p className=""> {item.name} </p>
+            </div>
+            <div className="product-name">
+              <p className=""> {item.price} </p>
+            </div>
+            <div className="product-button">
+              <button className="rounded m-2 p-2 bg-slate-200 hover:bg-slate-400">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
     </>
   );
 };
