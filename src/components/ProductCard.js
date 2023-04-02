@@ -10,72 +10,72 @@ const produce = [
   {
     image: "https://bit.ly/42UZCrm",
     name: "Red cabbage",
-    price: "30.0/kg",
+    price: "30.00/kg",
   },
 
   {
     image: "https://bit.ly/3MclRmq",
     name: "Lettuce",
-    price: "50.0/kg",
+    price: "50.00/kg",
   },
   {
     image: "https://bit.ly/40wRsnm",
     name: "Carrots",
-    price: "35.0/kg",
+    price: "35.00/kg",
   },
 
   {
     image: "https://bit.ly/3lO22Y9",
     name: "Beef lean cuts",
-    price: "180.0/kg",
+    price: "180.00/kg",
   },
 
   {
     image: "https://bit.ly/40l6mwV",
     name: "Skimmed milk",
-    price: "90.0/litre",
+    price: "90.00/litre",
   },
 
   {
     image: "https://bit.ly/40ADGAk",
     name: "Pineapples",
-    price: "40.0/kg",
+    price: "40.00/kg",
   },
 
   {
     image: "https://bit.ly/3Kkptl1",
     name: "Avocados",
-    price: "40.0/kg",
+    price: "40.00/kg",
   },
 
   {
     image: "https://bit.ly/3M2Zujq",
     name: "Apples",
-    price: "35.0/kg",
+    price: "35.00/kg",
   },
 
   {
     image: "https://bit.ly/3JVKlhm",
     name: "Tomatoes",
-    price: "160.0/kg",
+    price: "160.00/kg",
   },
 
   {
     image: "https://bit.ly/40tsVzD",
     name: "White onions",
-    price: "130.0/kg",
+    price: "130.00/kg",
   },
 
   {
     image: "https://bit.ly/3Zuy8pm",
     name: "Red onions",
-    price: "100.0/kg",
+    price: "100.00/kg",
   },
 
   {
     image: "https://bit.ly/3G01PIb",
     name: "Grapes",
-    price: "180.0/kg",
+    price: "180.00/kg",
   },
 ];
 

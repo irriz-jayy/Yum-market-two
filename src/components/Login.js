@@ -66,10 +66,10 @@ export default function Example() {
 
               <div className="text-sm">
                 <a
-                  href="#"
+                  href="/sign-up"
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
-                  Forgot your password?
+                  Dont have an account? Sign up
                 </a>
               </div>
             </div>
