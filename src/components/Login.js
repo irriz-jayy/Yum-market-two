@@ -3,7 +3,7 @@ import { LockClosedIcon } from "@heroicons/react/20/solid";
 export default function Example() {
   return (
     <>
-      <div className="bg-cyan-800 flex min-h-[100vh] items-center justify-center py-12 px-4 sm:px-6 lg:px-8 ">
+      <div className="bg-yellow-400 flex min-h-[100vh] items-center justify-center py-12 px-4 sm:px-6 lg:px-8 ">
         <div className="w-full max-w-md space-y-8">
           <div>
             <img

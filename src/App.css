@@ -110,15 +110,18 @@
 }
 
 .product-card {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
+  margin: 5px;
+  height: 450px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgray;
 }
 
 .product-image {
+  height: 290px;
 }
 
 .product-name {

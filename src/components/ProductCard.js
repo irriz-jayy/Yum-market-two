@@ -4,78 +4,78 @@ const produce = [
   {
     image: "https://bit.ly/40rN8pf",
     name: "Milk",
-    price: 65.0,
+    price: "65.00/piece",
   },
 
   {
     image: "https://bit.ly/42UZCrm",
     name: "Red cabbage",
-    price: 30.0,
+    price: "30.0/kg",
   },
 
   {
     image: "https://bit.ly/3MclRmq",
     name: "Lettuce",
-    price: 50.0,
+    price: "50.0/kg",
   },
   {
     image: "https://bit.ly/40wRsnm",
     name: "Carrots",
-    price: 35.0,
+    price: "35.0/kg",
   },
 
   {
     image: "https://bit.ly/3lO22Y9",
-    name: "Beef cuts",
-    price: 180.0,
+    name: "Beef lean cuts",
+    price: "180.0/kg",
   },
 
   {
     image: "https://bit.ly/40l6mwV",
-    name: "Mala",
-    price: 90.0,
+    name: "Skimmed milk",
+    price: "90.0/litre",
   },
 
   {
     image: "https://bit.ly/40ADGAk",
     name: "Pineapples",
-    price: 40.0,
+    price: "40.0/kg",
   },
 
   {
     image: "https://bit.ly/3Kkptl1",
     name: "Avocados",
-    price: 40.0,
+    price: "40.0/kg",
   },
 
   {
     image: "https://bit.ly/3M2Zujq",
     name: "Apples",
-    price: 35.0,
+    price: "35.0/kg",
   },
 
   {
     image: "https://bit.ly/3JVKlhm",
     name: "Tomatoes",
-    price: 160.0,
+    price: "160.0/kg",
   },
 
   {
     image: "https://bit.ly/40tsVzD",
     name: "White onions",
-    price: 130.0,
+    price: "130.0/kg",
   },
 
   {
     image: "https://bit.ly/3Zuy8pm",
     name: "Red onions",
-    price: 100.0,
+    price: "100.0/kg",
   },
 
   {
     image: "https://bit.ly/3G01PIb",
     name: "Grapes",
-    price: 180.0,
+    price: "180.0/kg",
   },
 ];
 
@@ -96,7 +96,7 @@ const ProductCard = () => {
               <p className=""> {item.price} </p>
             </div>
             <div className="product-button">
-              <button className="rounded m-2 p-2 bg-slate-200 hover:bg-slate-400">
+              <button className="rounded m-2 p-2 bg-slate-200 hover:bg-slate-400 ">
                 Add to cart
               </button>
             </div>
