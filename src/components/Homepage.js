@@ -1,6 +1,7 @@
 import "../App.css";
 import Categories from "./Categories";
 import Feature from "./Feature";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import ProductCard from "./ProductCard";
 
@@ -33,6 +34,7 @@ const Homepage = () => {
         <Feature />
         <Categories />
         <ProductCard />
+        <Footer />
       </div>
     </>
   );
