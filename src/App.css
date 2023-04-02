@@ -134,3 +134,25 @@
   display: flex;
   justify-content: center;
 }
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+}
+
+.link-item {
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+}
