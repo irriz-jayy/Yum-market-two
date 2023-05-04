@@ -43,7 +43,7 @@ export default function Navbar() {
                       Delivery area
                     </a>
                     <a
-                      href="#"
+                      href="/cart"
                       className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-yellow-400 hover:text-black"
                     >
                       Your cart

@@ -205,7 +205,6 @@ export default function ProductCard() {
         <h2 className="text-xl text-center font-bold text-gray-900">
           Buy products
         </h2>
-
         <div className="mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <div key={product.id}>
