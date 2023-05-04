@@ -198,7 +198,7 @@ const products = [
   },
 ];
 
-export default function Example() {
+export default function ProductCard() {
   return (
     <div className="bg-yellow-400">
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -243,14 +243,6 @@ export default function Example() {
             </div>
           ))}
         </div>
-      </div>
-      <div className="my-4 w-100vw flex items-center justify-center">
-        <a
-          href="/products"
-          className="relative flex items-center justify-center rounded-md border border-transparent bg-gray-100 py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gray-200"
-        >
-          View all products
-        </a>
       </div>
     </div>
   );
