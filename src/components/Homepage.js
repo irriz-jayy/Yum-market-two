@@ -40,6 +40,14 @@ export default function Homepage() {
         </div>
       </div>
       <ProductCard />
+      <div className="my-4 w-100vw flex items-center justify-center">
+        <a
+          href="/products"
+          className="relative flex items-center justify-center rounded-md border border-transparent bg-yellow-300 py-2 px-8 text-sm font-medium text-gray-900 hover:bg-gray-200"
+        >
+          View all products
+        </a>
+      </div>
       <Footer />
     </>
   );
